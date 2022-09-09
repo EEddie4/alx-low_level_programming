@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main : this is where all dreams begin
- * Description : This evaluates whether a number
+ * main - this is where all dreams begin
+ * Description: This evaluates whether a number
  * is positive, negative or zero
- * Return : 0 afterwards
+ * Return: 0 afterwards
  */
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 
 if (n < 0)
 {
-	printf("%d is negative\n",n);
+	printf("%d is negative\n", n);
 }
 else if (n == 0)
 {
