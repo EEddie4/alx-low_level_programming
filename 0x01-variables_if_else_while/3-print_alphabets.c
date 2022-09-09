@@ -1,28 +1,29 @@
 #include <stdio.h>
 
-/*
- * main - Entry point
- * Description: print 0, 1, - 9
- * Return: Always 0
- */
+/**
+  * main - Entry point
+  * Description: print alphabet in lowercase, uppercase and a newline.
+  * Return: 0 always
+  */
 
 int main(void)
 {
-	int digit = 0;
+	char l = 'a';
+	char u = 'A';
 
-	while (digit <= 9)
+	/*  Print the lowecase characters first*/
+	while (l <= 'z')
 	{
-		putchar(digit + 48);
-
-		if (digit != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-
-		++digit;
+		putchar(l);
+		++l;
+	}
+	/*print A - Z*/
+	while (u <= 'Z')
+	{
+		putchar(u);
+		++u;
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
