@@ -2,12 +2,13 @@
 
 /**
  * main - Entry point
- * Description: print all possible 2 digit numbers. 
+ * Description: print all possible 2 digit numbers.
  * Return: Always 0
  */
 int main(void)
 {
 	int digit1 = 0, digit2;
+
 	while (digit1 <= 9)
 	{
 		digit2 = 0;
