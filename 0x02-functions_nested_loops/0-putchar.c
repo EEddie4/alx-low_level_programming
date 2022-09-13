@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /*
- * main - Starts execution of code
+ * main - Entry point
  * Description: Prints a string
  * Return: returns 0
  */
