@@ -49,10 +49,8 @@ int main(void)
 		f1o = f2o;
 		f2 = sum;
 		f2o = sumo;
-		
 		if (count != 98)
 			printf(", ");
-		
 		else
 			printf("\n");
 	}
