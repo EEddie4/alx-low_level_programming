@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /*
- * Main: Starts execution of code
+ * main - Starts execution of code
  * Description: Prints a string
  * Return: returns 0
  */
