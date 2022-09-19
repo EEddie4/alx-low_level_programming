@@ -3,7 +3,7 @@
  *  @s: string to convert to an integer
  *
  *  Return: The numerical value of the string in base 10.
- *  */
+ */
 int _atoi(char *s)
 {
 	unsigned int sum = 0;

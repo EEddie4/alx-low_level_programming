@@ -4,7 +4,7 @@
  * @str: pointer to the string to print
  * Return: voi
  *
- *  */
+ */
 void _puts(char *str)
 {
 	int i = 0;

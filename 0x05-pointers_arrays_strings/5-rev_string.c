@@ -2,7 +2,7 @@
  * rev_string - reverses the contents of a character sequence
  *  @s: the string to reverse.
  *  Return: Does not return a value.
- *  */
+ */
 void rev_string(char *s)
 {
 	int l, i;

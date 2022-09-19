@@ -3,7 +3,7 @@
  * @a: first integer
  * @b: second integer
  * Return: Does not return a value
- * */
+ */
 void swap_int(int *a, int *b)
 {
 	int temp;
