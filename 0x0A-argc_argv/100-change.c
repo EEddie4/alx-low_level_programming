@@ -33,3 +33,4 @@ int main(int argc, char *argv[])
 			cents -= 1;
 		ncoins += 1;
 	}
+}
