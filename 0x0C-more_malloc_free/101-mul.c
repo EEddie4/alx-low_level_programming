@@ -8,11 +8,8 @@ void print_result(char *src, int length);
 
 /**
  * main - entry point, multiplies two numbers
- *
  * @argc: integer, length of @argv
- *
  * @argv: one-dimensional array of strings, arguments of this program
- *
  * Return: 0, success
  */
 
@@ -59,9 +56,7 @@ return (0);
 
 /**
  * getLengthOfNum - length of numbers in a string
- *
  * @str: pointer to string of numbers
- *
  * Return: integer (SUCCESS) or
  * NULL, if string includes char
  */
@@ -85,15 +80,10 @@ return (i);
 /**
  * populateResult - multiplies two numbers stored as string
  * and stores result in @dest
- *
  * @dest: pointer to where @num1 * @num2 should be stored
- *
  * @n1: positive number stored as string in an array
- *
  * @n2: positive number stored as string in an array
- *
  * @n1_len: length of @n1
- *
  * @n2_len: length of @n2
  */
 
@@ -163,9 +153,7 @@ free(multiplier);
 
 /**
  * print_result - prints numbers stored as string in a memory location
- *
- * @src: pointer to memory that stores numbers as strings
- *
+ * @src: pointer to memory that stores numbers as string
  * @length: length of @src
  */
 
