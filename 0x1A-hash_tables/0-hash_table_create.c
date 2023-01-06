@@ -1,6 +1,6 @@
 /*
  * File: 0-hash_table_create.c
- * Auth: Tito T Osadebey
+ * Auth: James Edikan
  */
 
 #include "hash_tables.h"
